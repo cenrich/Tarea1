@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #999;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header .upper-header {
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+header .upper-header .contact {
+  float: left;
+}
+header .upper-header .social-networks {
+  float: right;
+}
+header .upper-header .social-networks li {
+  float: left;
+}
+header .lower-header {
+  height: 72px;
+}
+header .lower-header .logo {
+  float: left;
+  width: 15vw;
+}
+header .lower-header .main-nav-menu {
+  float: right;
+}
+header .lower-header .main-nav-menu li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

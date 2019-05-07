@@ -5,9 +5,51 @@ body{
     font-size: 16px;
     color:#999;
     box-sizing: border-box;
+    background-color: #fafafa;
 }
 
 a{
     color: #999;
-    text-decoration: none
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:80vw;
+    margin: 0 auto;
+}
+
+header{
+    .upper-header {
+        height: 36px;
+        line-height:36px;
+        border-bottom:1px solid rgba(0, 0, 0, 0.2);
+        .contact {
+            float:left;
+        }
+        .social-networks {
+            float:right;
+            li {
+                float:left;
+            }
+        }
+    }
+    .lower-header {
+        height: 72px;
+        .logo {
+            float:left;
+            width:15vw;
+        }
+        .main-nav-menu {
+            float:right;
+            li {
+                display:inline-block;
+            }
+        }
+    }
 }
