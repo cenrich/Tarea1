@@ -20,8 +20,8 @@ ul {
 }
 
 .container {
-    width:80vw;
     margin: 0 auto;
+    padding: 2vh 15vw;
 }
 
 header{
@@ -31,11 +31,15 @@ header{
         border-bottom:1px solid rgba(0, 0, 0, 0.2);
         .contact {
             float:left;
+            a {
+                margin:0 10px;
+            }
         }
         .social-networks {
             float:right;
             li {
                 float:left;
+                margin:0 10px;
             }
         }
     }
@@ -44,11 +48,12 @@ header{
         .logo {
             float:left;
             width:15vw;
-        }
+            }
         .main-nav-menu {
             float:right;
             li {
-                display:inline-block;
+                float:left;
+                margin:0 10px
             }
         }
     }

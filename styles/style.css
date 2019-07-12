@@ -19,8 +19,8 @@ ul {
 }
 
 .container {
-  width: 80vw;
   margin: 0 auto;
+  padding: 2vh 15vw;
 }
 
 header .upper-header {
@@ -31,11 +31,15 @@ header .upper-header {
 header .upper-header .contact {
   float: left;
 }
+header .upper-header .contact a {
+  margin: 0 10px;
+}
 header .upper-header .social-networks {
   float: right;
 }
 header .upper-header .social-networks li {
   float: left;
+  margin: 0 10px;
 }
 header .lower-header {
   height: 72px;
@@ -48,7 +52,8 @@ header .lower-header .main-nav-menu {
   float: right;
 }
 header .lower-header .main-nav-menu li {
-  display: inline-block;
+  float: left;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
